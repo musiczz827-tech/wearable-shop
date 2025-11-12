@@ -1,42 +1,70 @@
-/* Wearable Shop Style */
 body {
-  font-family: 'Poppins', sans-serif;
-  background-color: #f7f8fa;
   margin: 0;
-  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f9;
   color: #333;
 }
+
 header {
-  background: black;
+  background: #111;
   color: white;
-  padding: 20px;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.hero {
   text-align: center;
-  font-size: 22px;
-}
-.container {
-  max-width: 800px;
-  margin: 30px auto;
-  background: white;
-  padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.1);
-}
-button {
-  background: #25D366;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #111, #444);
   color: white;
-  padding: 12px 25px;
+}
+
+.hero button {
+  background: #00b894;
+  color: white;
   border: none;
-  border-radius: 8px;
-  font-size: 16px;
+  padding: 10px 20px;
+  margin-top: 10px;
   cursor: pointer;
-}
-button:hover {
-  background: #1DA851;
-}
-input, textarea {
-  width: 100%;
-  margin: 10px 0;
-  padding: 10px;
   border-radius: 6px;
-  border: 1px solid #ccc;
+}
+
+.hero button:hover {
+  background: #019870;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 220px;
+  padding: 15px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 15px;
 }
